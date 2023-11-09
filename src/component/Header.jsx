@@ -13,6 +13,9 @@ function Header () {
                 <li className="headerli3"> 
                 <Link to="/contact">Contact</Link>
                 </li>
+                <li>
+                    <Link to="/profil"> Profil </Link>
+                </li>
                 <ProfileMenu/>
             </ul>
         </nav>
