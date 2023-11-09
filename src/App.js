@@ -3,6 +3,7 @@ import  './App.scss';
 import { BrowserRouter, Routes, Route} from "react-router-dom";
 import Contact from "./Contact"
 import Home from "./Home"
+import Who from "./Who"
 
 
 
@@ -13,6 +14,7 @@ function App() {
     <Routes>
       <Route path ="/" element={<Home/>}/>
       <Route path ="/contact" element={<Contact/>}/>
+      <Route path ="/who" element={<Who/>}/>
     </Routes>
 </BrowserRouter>
   );
