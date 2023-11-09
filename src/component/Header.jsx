@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import ProfileMenu from "./ProfileMenu"
 
 function Header () {
@@ -6,9 +7,12 @@ function Header () {
         <h1> Le blog de Rika, qui va pas être très beau </h1>
         <nav className="navbarheader">
             <ul className="headerul1">
-                <li className="headerli1"> Acceuil</li>
-                <li className="headerli2"> Home</li>
-                <li className="headerli3"> Contact </li>
+                <li className="headerli1"> 
+                <Link to ="/">Home</Link>
+                </li>
+                <li className="headerli3"> 
+                <Link to="/contact">Contact</Link>
+                </li>
                 <ProfileMenu/>
             </ul>
         </nav>
