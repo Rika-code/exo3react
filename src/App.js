@@ -1,19 +1,20 @@
 import logo from './logo.svg';
 import  './App.scss';
-import Header from './Header';
-import Home from './Home';
-import Footer from './Footer';
+import { BrowserRouter, Routes, Route} from "react-router-dom";
+import Contact from "./Contact"
+import Home from "./Home"
+
 
 
 
 function App() {
   return (
-    <>
-    <Header/>
-    <Home />
-    <Footer />
-    </>
-    
+    <BrowserRouter>
+    <Routes>
+      <Route path ="/" element={<Home/>}/>
+      <Route path ="/contact" element={<Contact/>}/>
+    </Routes>
+</BrowserRouter>
   );
 }
 
