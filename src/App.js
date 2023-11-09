@@ -1,11 +1,11 @@
 
 import  './component/App.scss';
 import { BrowserRouter, Routes, Route} from "react-router-dom";
-import Contact from "./page/Contact"
-import Home from "./page/Home"
-import Who from "./page/Who"
-import Profil from "./page/Profil"
-import Articles from "./page/Articles"
+import Contact from "./page/Contact";
+import Home from "./page/Home";
+import Who from "./page/Who";
+import Profil from "./page/Profil";
+import Articles from "./page/Articles";
 
 
 

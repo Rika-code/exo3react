@@ -16,6 +16,9 @@ function Header () {
                 <li>
                     <Link to="/profil"> Profil </Link>
                 </li>
+                <li>
+                    <Link to="/articles">Articles</Link>
+                </li>
                 <ProfileMenu/>
             </ul>
         </nav>
